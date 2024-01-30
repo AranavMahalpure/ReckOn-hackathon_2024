@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #appliance-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .category {
+    flex-basis: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .category h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .category li {
+    margin-bottom: 10px;
+  }
+  
+  .category label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .category input[type="number"] {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 600px) {
+    .category {
+      flex-basis: 100%;
+    }
+  }
